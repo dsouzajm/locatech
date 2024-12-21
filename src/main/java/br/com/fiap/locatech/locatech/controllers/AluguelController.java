@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("/alugueis")
+@RequestMapping("/v1/alugueis")
 public class AluguelController {
     private static final Logger logger = (Logger) Logger.getLogger(AluguelController.class.getName());
     private final AluguelService aluguelService;
